@@ -1,0 +1,24 @@
+{
+  "name": "pixiv-downloader",
+  "version": "2.0.0",
+  "description": "",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/main.js"
+  },
+  "author": "Ibaraki",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@types/node-fetch": "^2.5.10",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.3.0",
+    "puppeteer": "^9.1.1"
+  }
+}
