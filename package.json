@@ -2,7 +2,8 @@
   "name": "pixiv-downloader",
   "version": "2.0.0",
   "description": "",
-  "main": "./lib/main.js",
+  "main": "./lib/Pixiv.js",
+  "types": "./lib/Pixiv.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./lib/main.js"
@@ -18,7 +19,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "node-fetch": "^2.6.1",
-    "node-html-parser": "^3.3.0",
-    "puppeteer": "^9.1.1"
+    "node-html-parser": "^3.3.0"
   }
 }
