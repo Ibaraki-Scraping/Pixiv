@@ -18,8 +18,8 @@ export declare class Pixiv {
     getIllustByArtwork(artwork: Artwork): Promise<Illust>;
     getIllustsByUserID(id: string, options?: {
         limit?: number;
-    }): Promise<Array<Artwork>>;
-    getIllustsByUser(user: User): Promise<Array<Artwork>>;
+    }): Promise<Array<Illust>>;
+    getIllustsByUser(user: User): Promise<Array<Illust>>;
     predict(tag: string): Promise<Array<TAG>>;
     download(url: URL): Promise<Buffer>;
     private fetch;
